@@ -12,6 +12,7 @@
 
 const readline = require('readline-sync')
 let userAge = readline.question('Please enter your age: ')
+
 // console.log(userAge)
 
 // process.stdout.write('Hello'); // Console.log without the new line at the end
