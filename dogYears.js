@@ -8,9 +8,11 @@ let lateDogYears = dogAge - earlyDogYears
 earlyDogYears = earlyDogYears * 10.5
 
 console.log(`The dog's age in human years is ${dogAge} years old. The dog's age in dog's years is ${lateDogYears * 4 + earlyDogYears} years old`)
-} else if (dogAge <= 2) {
+} else if (dogAge <= 2 && dogAge >= 0) {
     earlyDogYears = dogAge * 10.5
     console.log(`The dog's age in human years is ${dogAge} years old. The dog's age in dog's years is ${earlyDogYears} years old`)
+} else if (dogAge < 0) {
+    console.log(`The dog's age is 0`)
 }
 
 
